@@ -1,0 +1,25 @@
+@import "src/style/header";
+@import "src/style/hero";
+@import "src/style/zacaz";
+@import "src/style/chem";
+@import "src/style/chem";
+@import "src/style/start";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#App {
+  font-family: Roboto, sans-serif;
+  background: black;
+}

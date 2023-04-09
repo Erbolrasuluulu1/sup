@@ -1,0 +1,23 @@
+#chem {
+  padding: 80px 0;
+  .chem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--my {
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        color: #FFFFFF;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 636px;
+        margin-top: 45px;
+        line-height: 160%;
+      }
+    }
+  }
+}

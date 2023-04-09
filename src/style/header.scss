@@ -1,0 +1,28 @@
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 40px 0;
+  backdrop-filter: blur(4px);
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--nav {
+      a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin: 0 15px;
+      }
+    }
+    button {
+      width: 183px;
+      height: 44px;
+      background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+      border-radius: 50px;
+    }
+  }
+}

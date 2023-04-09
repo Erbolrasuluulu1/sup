@@ -1,0 +1,27 @@
+#start {
+  .start {
+    &--be {
+      display: flex;
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        color: #FFFFFF;
+      }
+
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+
+      opacity: 0.5;
+    }
+    &--pro {
+      display: flex;
+      &__blo {
+
+      }
+    }
+  }
+}
